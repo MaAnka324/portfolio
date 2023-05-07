@@ -1,4 +1,11 @@
-.header {
-    height: 80px;
-    background-color: darkseagreen;
+.nav {
+    /*height: 80px;*/
+    /*background-color: darkseagreen;*/
+    /*display: flex;*/
+    /*justify-content: flex-end;*/
+    /*align-items: center;*/
+    border: 1px solid;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
 }
