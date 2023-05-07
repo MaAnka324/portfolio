@@ -1,13 +1,12 @@
 import React from 'react';
-import style from './Header.module.css';
-import Nav from "../nav/Nav";
+import style from './Nav.module.css';
 
-function Header() {
+function Nav() {
     return (
-        <div className={style.header}>
-            <Nav/>
+        <div className={style.nav}>
+
         </div>
     );
 }
 
-export default Header;
+export default Nav;
