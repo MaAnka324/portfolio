@@ -6,7 +6,7 @@ const DistWork = () => {
     return (
         <div className={style.block}>
             <div className={`${styleContainer.container} ${style.container}`}>
-                <h3>text</h3>
+                <h2>text</h2>
                 <a href=''>Contact me</a>
             </div>
 

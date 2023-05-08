@@ -1,0 +1,29 @@
+.block {
+    height: 65vh;
+    background-color: #6dafbf;
+}
+
+.container {
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.title {
+
+}
+
+.inputBlock {
+    border: 1px solid;
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.textarea {
+    width: 200px;
+    height: 90px;
+}
