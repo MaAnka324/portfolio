@@ -7,7 +7,8 @@ function Nav() {
         <div className={style.nav}>
             <a href=''>Home</a>
             <a href=''>Skills</a>
-            <a href=''>Skillssss</a>
+            <a href=''>Projects</a>
+            <a href=''>Contacts</a>
         </div>
     );
 }

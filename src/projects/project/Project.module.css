@@ -1,0 +1,14 @@
+.project {
+    width: 450px;
+    background-color: #bf596b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+}
+
+.icon {
+    width: 450px;
+    height: 350px;
+    background-color: #97bfa0;
+}
