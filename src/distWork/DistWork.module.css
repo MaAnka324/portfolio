@@ -1,0 +1,18 @@
+.block {
+    height: 40vh;
+    background-color: #72bf78;
+}
+
+.container {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*.work {*/
+/*    border: 1px solid;*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    flex-wrap: wrap;*/
+/*}*/

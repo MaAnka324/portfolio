@@ -1,14 +1,27 @@
 .project {
     width: 450px;
     background-color: #bf596b;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: start;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+    /*text-align: start;*/
 }
 
 .icon {
     width: 450px;
     height: 350px;
     background-color: #97bfa0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+}
+
+.href {
+    background-color: #5562bf;
+    width: 80px;
 }
