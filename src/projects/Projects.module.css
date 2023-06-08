@@ -1,6 +1,7 @@
 .projectBlock {
-    height: 100vh;
+    /*height: 100vh;*/
     background-color: #122633;
+    min-height: 100vh;
 }
 
 .title {
@@ -14,9 +15,13 @@
 
 .projects {
     border: 1px solid;
-    width: 100%;
+    max-width: 450px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+@media (max-width: 1200px) {
+
 }
 
