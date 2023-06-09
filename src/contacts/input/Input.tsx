@@ -6,14 +6,12 @@ const Input = () => {
         <div>
             <form action="/submit" method="POST">
                 <label htmlFor="GET-name">Name:</label>
-                <input id="GET-name" type="text" name="name" required/>
+                <input className={style.input} id="GET-name" type="text" name="name" required/>
                 <label htmlFor="email">Email:</label>
-                <input id="email" type="email" name="email" required/>
+                <input className={style.input} id="email" type="email" name="email" required/>
                 <label htmlFor="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <div>
-                    <input type="submit" value="Save"/>
-                </div>
+                <textarea className={style.input} id="message" name="message" required></textarea>
+                <input className={style.button} type="submit" value="Save"/>
             </form>
         </div>
     );

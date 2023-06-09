@@ -7,15 +7,17 @@ type ProjectType = {
     text2: string
     href: string
     hrefName: string
+    img: string
 }
 
 const Project = (props: ProjectType) => {
     return (
         <div className={style.project}>
-            <div className={style.icon}>
-                <a className={style.href} href={props.href}>{props.hrefName}</a>
+            <img className={style.icon} src={props.img}/>
+            <div >
+                <a className={style.href} href={props.href} target="_blank">{props.hrefName}</a>
             </div>
-            <h3>{props.project}</h3>
+            <h2>{props.project}</h2>
             <span className={style.description}>{props.text}</span>
             <p></p>
             <span className={style.description}>{props.text2}</span>

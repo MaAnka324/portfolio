@@ -1,11 +1,11 @@
 .block {
     height: 65vh;
-    background-color: #122633;
+    background-color: #122E33;
 }
 
 .container {
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: start;
 
 }
 
@@ -14,7 +14,7 @@
 }
 
 .inputBlock {
-    border: 1px solid;
+    /*border: 1px solid;*/
     width: 210px;
     display: flex;
     flex-direction: column;

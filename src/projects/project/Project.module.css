@@ -1,6 +1,6 @@
 .project {
     width: 350px;
-    background-color: #bf596b;
+    /*background-color: #bf596b;*/
     margin-bottom: 40px;
     /*display: flex;*/
     /*flex-direction: column;*/
@@ -11,7 +11,7 @@
 .icon {
     width: 350px;
     height: 350px;
-    background-color: #97bfa0;
+    /*background-color: #97bfa0;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,7 @@
 }
 
 .href {
-    background-color: #5562bf;
+    /*background-color: #5562bf;*/
     width: 80px;
 }
 

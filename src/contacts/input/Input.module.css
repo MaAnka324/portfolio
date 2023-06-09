@@ -1,3 +1,11 @@
+.button {
+    margin-top: 20px;
+    background-color: #415963;
+    display: flex;
+    flex-direction: column;
+}
+
 .input {
+    background-color: #657e88;
     width: 200px;
 }
