@@ -1,5 +1,4 @@
 .projectBlock {
-    /*height: 100vh;*/
     background-color: #122633;
     min-height: 100vh;
 }
@@ -15,13 +14,18 @@
 
 .projects {
     border: 1px solid;
-    max-width: 450px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
 
-@media (max-width: 1200px) {
-
+@media (max-width: 1000px) {
+    .projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 

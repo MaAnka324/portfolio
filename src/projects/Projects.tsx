@@ -13,13 +13,15 @@ const Projects = () => {
                 <div className={style.projects}>
                     <Project
                         project={'TodoList'}
-                        text={'asdfghjkl;asdfghjhsdgvje dfvbfehgfvefkuw asdfghjkl;asdfghjhsdgvje dfvbfehgfvefkuw'}
+                        text={'The TodoList project is a commonly implemented project that demonstrates the creation of a simple web application for managing a list of tasks or to-do items. It allows users to add, remove, and mark tasks as completed.'}
+                        text2={'Functionality of a TodoList project: Task List display, add new tasks, remove tasks, mark tasks as completed, filtering and sorting '}
                         href={'https://maanka324.github.io/TODO_LIST/'}
                         hrefName={'Смотреть'}
                     />
                     <Project
                         project={'Counter'}
-                        text={'Hello;asdfghjhsdgvje dfvbfehgfvefkuw asdfghjkl;asdfghjhsdgvje dfvbfehgfvefkuw'}
+                        text={'The Counter project is a simple web application that allows users to increment a number based on predefined settings. It also includes the functionality to disable buttons based on certain conditions.'}
+                        text2={'Functionality of a Counter project: number display, settings, incrementing the number, reset or clear functionality, disabling buttons'}
                         href={'https://maanka324.github.io/counter/'}
                         hrefName={'Смотреть'}
                     />

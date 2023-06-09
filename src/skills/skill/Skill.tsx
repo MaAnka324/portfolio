@@ -3,7 +3,7 @@ import style from './Skill.module.css'
 
 type SkillType = {
     skill: string
-    text: string
+    // text: string
 }
 
 const Skill = (props: SkillType) => {
@@ -11,7 +11,7 @@ const Skill = (props: SkillType) => {
         <div className={style.skill}>
             <div className={style.icon}></div>
             <h3 >{props.skill}</h3>
-            <span className={style.description}>{props.text}</span>
+            {/*<span className={style.description}>{props.text}</span>*/}
         </div>
     );
 };

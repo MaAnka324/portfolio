@@ -1,6 +1,7 @@
 .project {
-    width: 450px;
+    width: 350px;
     background-color: #bf596b;
+    margin-bottom: 30px;
     /*display: flex;*/
     /*flex-direction: column;*/
     /*align-items: center;*/
@@ -8,7 +9,7 @@
 }
 
 .icon {
-    width: 450px;
+    width: 350px;
     height: 350px;
     background-color: #97bfa0;
     display: flex;
@@ -24,4 +25,26 @@
 .href {
     background-color: #5562bf;
     width: 80px;
+}
+
+@media (max-width: 450px) {
+    .icon {
+        width: 300px;
+        height: 300px;
+    }
+
+    .project {
+        width: 300px;
+    }
+}
+
+@media (max-width: 340px) {
+    .icon {
+        width: 270px;
+        height: 270px;
+    }
+
+    .project {
+        width: 270px;
+    }
 }

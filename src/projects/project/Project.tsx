@@ -4,6 +4,7 @@ import style from './Project.module.css';
 type ProjectType = {
     project: string
     text: string
+    text2: string
     href: string
     hrefName: string
 }
@@ -16,6 +17,8 @@ const Project = (props: ProjectType) => {
             </div>
             <h3>{props.project}</h3>
             <span className={style.description}>{props.text}</span>
+            <p></p>
+            <span className={style.description}>{props.text2}</span>
 
         </div>
     );

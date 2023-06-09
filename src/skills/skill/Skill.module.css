@@ -1,10 +1,11 @@
 .skill {
-    width: 250px;
+    width: 200px;
     background-color: #6ebf1d;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 10px 0;
 }
 
 .icon {
@@ -12,3 +13,10 @@
     height: 60px;
     background-color: #97bfa0;
 }
+
+@media (max-width: 800px) {
+    .skill {
+
+    }
+}
+

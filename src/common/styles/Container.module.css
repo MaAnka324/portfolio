@@ -9,3 +9,19 @@
     flex-wrap: wrap;
 }
 
+@media (max-width: 780px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 380px) {
+    .container {
+        width: 90%;
+    }
+}
+
+
+
