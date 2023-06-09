@@ -5,15 +5,12 @@ import Input from "./input/Input";
 
 const Contacts = () => {
     return (
-        <div className={style.block}>
+        <div id='contacts' className={style.block}>
             <div className={`${styleContainer.container} ${style.container}`}>
                 <h2 className={style.title}>Contacts</h2>
                 <div className={style.inputBlock}>
                     <Input/>
-                    <Input/>
-                    <textarea className={style.textarea}/>
                 </div>
-                <button>Send</button>
             </div>
         </div>
     );

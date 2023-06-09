@@ -6,8 +6,8 @@ const DistWork = () => {
     return (
         <div className={style.block}>
             <div className={`${styleContainer.container} ${style.container}`}>
-                <h2>text</h2>
-                <a href=''>Contact me</a>
+                <h2>Considering remote work</h2>
+                <a href='#contacts'>Contact me</a>
             </div>
 
         </div>

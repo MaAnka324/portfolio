@@ -5,10 +5,9 @@ import style from './Nav.module.css';
 function Nav() {
     return (
         <div className={style.nav}>
-            <a href=''>Home</a>
-            <a href=''>Skills</a>
-            <a href=''>Projects</a>
-            <a href=''>Contacts</a>
+            <a href='#skills'>Skills</a>
+            <a href='#projects'>Projects</a>
+            <a href='#contacts'>Contacts</a>
         </div>
     );
 }
