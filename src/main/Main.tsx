@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './Main.module.css';
 import styleContainer from '../common/styles/Container.module.css'
+import photo from '../img/my_photo.jpg'
 
 function Main() {
     return (
@@ -11,7 +12,9 @@ function Main() {
                     <h1>Anna Matviichuk</h1>
                     <p>Frontend developer</p>
                 </div>
-                <div className={style.photo}></div>
+
+                    <img className={style.photo} src={photo}/>
+
             </div>
         </div>
     );
