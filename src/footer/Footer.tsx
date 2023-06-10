@@ -16,7 +16,7 @@ const Footer = () => {
                     </a>
                 </div>
                 <div>
-                    <a href='https://www.codewars.com/users/MaAnka324' target="_blank">
+                    <a href='https://github.com/MaAnka324' target="_blank">
                         <GitHubIcon fontSize={"large"} color={"inherit"}/>
                     </a>
                 </div>
