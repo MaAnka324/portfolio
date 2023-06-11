@@ -1,26 +1,16 @@
 .block {
-    height: 65vh;
+    min-height: 75px;
     background-color: #122E33;
 }
 
 .container {
-    flex-direction: column;
-    justify-content: start;
-
-}
-
-.title {
-
-}
-
-.inputBlock {
-    /*border: 1px solid;*/
-    width: 210px;
+    /*background-color: #9296bf;*/
+    width: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: space-between;
+
 }
 
 .textarea {

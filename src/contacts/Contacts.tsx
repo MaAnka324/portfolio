@@ -7,10 +7,8 @@ const Contacts = () => {
     return (
         <div id='contacts' className={style.block}>
             <div className={`${styleContainer.container} ${style.container}`}>
-                <h1 className={style.title}>Contacts</h1>
-                <div className={style.inputBlock}>
-                    <Input/>
-                </div>
+                <h1>Contacts</h1>
+                <Input/>
             </div>
         </div>
     );
