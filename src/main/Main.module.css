@@ -6,9 +6,23 @@
 }
 
 .text {
-    width: 300px;
-    /*background-color: #9296bf;*/
-    margin: 10px 0;
+    width: 380px;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+
+.h1 {
+    letter-spacing: 8px;
+    font-size: 50px;
+}
+
+.h4 {
+    letter-spacing: 2px;
+    font-size: 27px;
+}
+
+.webDev {
+    letter-spacing: 2px;
+    font-size: 38px;
 }
 
 .photo {
