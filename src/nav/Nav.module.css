@@ -1,11 +1,27 @@
 .nav {
-    border: 1px solid;
-    width: 420px;
+    width: 520px;
     display: flex;
     justify-content: space-between;
 }
 
 a {
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-size: 17px;
     text-decoration: none;
-    color: #9296bf;
+    /*color: #04777f;*/
+    color: #264d59;
+}
+
+@media (max-width: 600px) {
+    .nav {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 440px) {
+    a {
+        font-size: 14px;
+    }
 }

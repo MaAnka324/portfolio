@@ -17,10 +17,13 @@ const Project = (props: ProjectType) => {
             <div >
                 <a className={style.href} href={props.href} target="_blank">{props.hrefName}</a>
             </div>
-            <h2>{props.project}</h2>
-            <span className={style.description}>{props.text}</span>
-            <p></p>
-            <span className={style.description}>{props.text2}</span>
+            <h2 className={style.titleOfProject}>{props.project}</h2>
+            <div>
+                <span className={style.description}>{props.text}</span>
+                <p></p>
+                <span className={style.description}>{props.text2}</span>
+            </div>
+
 
         </div>
     );

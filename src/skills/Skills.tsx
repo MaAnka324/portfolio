@@ -7,7 +7,7 @@ const Skills = () => {
     return (
         <div id='skills' className={style.skillsBlock}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-                <h1 className={style.title}>Skills</h1>
+                <h1 className={style.title}>SKILLS</h1>
                 <div className={style.skills}>
                     <Skill skill={'HTML'}  img='https://cdn-icons-png.flaticon.com/512/732/732212.png'/>
                     <Skill skill={'CSS'} img='https://cdn-icons-png.flaticon.com/512/732/732190.png'/>

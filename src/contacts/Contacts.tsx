@@ -7,7 +7,7 @@ const Contacts = () => {
     return (
         <div id='contacts' className={style.block}>
             <div className={`${styleContainer.container} ${style.container}`}>
-                <h1>Contacts</h1>
+                <h1 className={style.textContacts}>Contacts</h1>
                 <Input/>
             </div>
         </div>

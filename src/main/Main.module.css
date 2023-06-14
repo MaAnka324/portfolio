@@ -1,28 +1,29 @@
 .mainBlock {
-    min-height: 75vh;
-    /*background-color: #182538;*/
+    min-height: 85vh;
     background-color: #122633;
-    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .text {
-    width: 380px;
-    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    width: 390px;
 }
 
 .h1 {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
     letter-spacing: 8px;
     font-size: 50px;
 }
 
 .h4 {
-    letter-spacing: 2px;
-    font-size: 27px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 17px;
 }
 
 .webDev {
-    letter-spacing: 2px;
-    font-size: 38px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 28px;
 }
 
 .photo {
@@ -32,6 +33,12 @@
     margin: 10px 0;
 }
 
+@media (max-width: 863px) {
+    .text {
+        width: 300px;
+    }
+}
+
 @media (max-width: 340px) {
     .text {
         width: 270px;
@@ -39,6 +46,7 @@
 
     .photo {
         width: 270px;
+        height: 320px
     }
 }
 
