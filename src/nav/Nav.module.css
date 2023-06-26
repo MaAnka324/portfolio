@@ -11,8 +11,7 @@ a {
     letter-spacing: 3px;
     font-size: 17px;
     text-decoration: none;
-    /*color: #04777f;*/
-    color: #264d59;
+    color: #8db3cd;
 }
 
 @media (max-width: 600px) {

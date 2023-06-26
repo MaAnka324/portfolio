@@ -15,6 +15,17 @@
     /*background-color: #88bfb0;*/
 }
 
+/*.title::before {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    background: #b0e9ff;*/
+/*    width: 55px;*/
+/*    height: 1px;*/
+/*    bottom: -30px;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, 50%);*/
+/*}*/
+
 .skillsContainer {
     min-height: 250px;
     display: flex;
