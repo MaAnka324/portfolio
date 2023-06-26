@@ -20,6 +20,11 @@ const Footer = () => {
                         <GitHubIcon fontSize={"large"} color={"inherit"}/>
                     </a>
                 </div>
+                <div>
+                    <a  href='https://www.codewars.com/users/MaAnka324' target="_blank">
+                        <img className={style.codewars} src='https://www.codewars.com/packs/assets/logo.61192cf7.svg'/>
+                    </a>
+                </div>
             </div>
             <div>© 2023 all rights reserved</div>
         </div>

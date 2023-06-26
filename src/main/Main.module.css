@@ -24,9 +24,19 @@
 .webDev {
     font-family: 'Noto Sans Mono', monospace;
     font-size: 28px;
+
+    color: #b0e9ff;
+    text-shadow: -13px 21px 5px rgba(0,0,0,0.7);
+    /*text-shadow:*/
+    /*    0 0 7px #fff,*/
+    /*    0 0 10px #fff,*/
+    /*    0 0 42px #e6127c,*/
+    /*    0 0 77px #e6127c,*/
+    /*    0 0 100px #e6127c;*/
 }
 
 .photo {
+    border-radius: 25% 3%;
     width: 300px;
     height: 350px;
     background-color: #9296bf;
