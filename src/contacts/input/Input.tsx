@@ -3,6 +3,7 @@ import style from './Input.module.css'
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 
+
 const Input = () => {
     return (
 
@@ -43,6 +44,7 @@ const Input = () => {
                 <div>
                     <Button variant="outlined" type="submit">Send</Button>
                     {/*<input className={style.button} type="submit" value="Save"/>*/}
+
                 </div>
             </div>
         </form>
