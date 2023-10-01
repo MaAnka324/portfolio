@@ -2,6 +2,7 @@ import React from 'react';
 import style from './Footer.module.css'
 import TelegramIcon from '@mui/icons-material/Telegram';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Footer = () => {
     return (
@@ -13,6 +14,11 @@ const Footer = () => {
                 <div>
                     <a href='https://t.me/MA_Anka' target="_blank">
                         <TelegramIcon fontSize={"large"} color={"info"}/>
+                    </a>
+                </div>
+                <div>
+                    <a href='https://www.linkedin.com/in/anna-matviichuk-785a5b267/' target="_blank">
+                        <LinkedInIcon fontSize={"large"} color={"info"}/>
                     </a>
                 </div>
                 <div>
