@@ -4,7 +4,6 @@ import style from './Project.module.css';
 type ProjectType = {
     project: string
     text: string
-    text2: string
     href: string
     hrefName: string
     img: string
@@ -20,11 +19,7 @@ const Project = (props: ProjectType) => {
             <h2 className={style.titleOfProject}>{props.project}</h2>
             <div>
                 <span className={style.description}>{props.text}</span>
-                <p></p>
-                <span className={style.description}>{props.text2}</span>
             </div>
-
-
         </div>
     );
 };
