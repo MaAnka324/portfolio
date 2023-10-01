@@ -2,6 +2,9 @@ import React from 'react';
 import style from './Skills.module.css'
 import styleContainer from '../common/styles/Container.module.css'
 import Skill from "./skill/Skill";
+import unitTesting from "../../src/skills/img/unit.svg";
+import rest from "../../src/skills/img/rest.svg";
+import formik from "../../src/skills/img/formik.svg";
 
 const Skills = () => {
     return (
@@ -19,6 +22,9 @@ const Skills = () => {
                     <Skill skill={'Axios'} img='https://cdn.icon-icons.com/icons2/3911/PNG/512/axios_logo_icon_247516.png'/>
                     <Skill skill={'Storybook'} img='https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_storybook_icon_130145.png'/>
                     <Skill skill={'Postman'} img='https://cdn.icon-icons.com/icons2/3053/PNG/512/postman_macos_bigsur_icon_189815.png'/>
+                    <Skill skill={'Unit Testing'} img={unitTesting}/>
+                    <Skill skill={'Formik'} img={formik}/>
+                    <Skill skill={'RestAPI'} img={rest}/>
                 </div>
             </div>
         </div>
