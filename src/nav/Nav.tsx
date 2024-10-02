@@ -7,7 +7,7 @@ function Nav() {
         <div className={style.nav}>
             <a href='#skills'>Skills</a>
             <a href='#projects'>Projects</a>
-            <a href='#contacts'>Contacts</a>
+            {/* <a href='#contacts'>Contacts</a> */}
         </div>
     );
 }

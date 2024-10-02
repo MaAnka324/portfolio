@@ -16,7 +16,8 @@ const Skills = () => {
                     <Skill skill={'CSS'} img='https://cdn-icons-png.flaticon.com/512/732/732190.png'/>
                     <Skill skill={'JavaScript'} img='https://cdn-icons-png.flaticon.com/512/5968/5968292.png'/>
                     <Skill skill={'TypeScript'} img='https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_typescript_official_icon_130107.png'/>
-                    <Skill skill={'React'} img='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/800px-React-icon.svg.png'/>
+                    <Skill skill={'React/React Native'} img='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/800px-React-icon.svg.png'/>
+                    <Skill skill={'Next.js'} img='https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png'/>
                     <Skill skill={'Redux/Redux Toolkit'} img='https://cdn.icon-icons.com/icons2/2415/PNG/512/redux_original_logo_icon_146365.png'/>
                     <Skill skill={'MUI'} img='https://seeklogo.com/images/M/mui-logo-56F171E991-seeklogo.com.png'/>
                     <Skill skill={'Axios'} img='https://cdn.icon-icons.com/icons2/3911/PNG/512/axios_logo_icon_247516.png'/>

@@ -28,11 +28,11 @@ const Footer = () => {
                 </div>
                 <div>
                     <a  href='https://www.codewars.com/users/MaAnka324' target="_blank">
-                        <img className={style.codewars} src='https://www.codewars.com/packs/assets/logo.61192cf7.svg'/>
+                        <img className={style.codewars} src='https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/224027/cw-512-12b281b9-f8a8-4512-9050-dcc2a2c7bb89.png'/>
                     </a>
                 </div>
             </div>
-            <div>© 2023 all rights reserved</div>
+            <div>© 2024 all rights reserved</div>
         </div>
     );
 };

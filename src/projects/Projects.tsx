@@ -2,7 +2,8 @@ import React from 'react';
 import style from './Projects.module.css';
 import styleContainer from "../common/styles/Container.module.css";
 import Project from "./project/Project";
-import socialNetwork from "../../src/projects/project/img/social_network.png"
+import socialNetwork from "../../src/projects/project/img/social_network.png";
+import new_job from "../../src/projects/project/img/new.png";
 
 
 
@@ -28,11 +29,11 @@ const Projects = () => {
                         img={socialNetwork}
                     />
                     <Project
-                        project={'Counter'}
-                        text={'Stack: TypeScript, React, Redux Toolkit, Redux-Thunk, ReactRouter-dom, Axios, localStorage\n'}
-                        href={'https://maanka324.github.io/counter/'}
+                        project={'SIGN UP'}
+                        text={'Stack: TypeScript, React, Redux, Redux-Thunk, ReactRouter-dom, Axios, Formik'}
+                        href={'https://github.com/MaAnka324/abz'}
                         hrefName={'go to view'}
-                        img='https://cdn-icons-png.flaticon.com/512/6357/6357834.png'
+                        img={new_job}
                     />
                 </div>
             </div>
