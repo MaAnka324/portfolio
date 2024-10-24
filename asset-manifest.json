@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e604c7c5.css",
-    "main.js": "/portfolio/static/js/main.a39c62af.js",
+    "main.css": "/portfolio/static/css/main.436b1911.css",
+    "main.js": "/portfolio/static/js/main.df9539d3.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/unit.svg": "/portfolio/static/media/unit.a759800bfe54cde7de6676ac7a6dc325.svg",
     "static/media/my_photo.jpg": "/portfolio/static/media/my_photo.15ca7d76c7faaad086a7.jpg",
@@ -9,13 +9,14 @@
     "static/media/formik.svg": "/portfolio/static/media/formik.2df367655623c731631a005ebec188ea.svg",
     "static/media/new.png": "/portfolio/static/media/new.ca9bd41e4ed2f5e6177a.png",
     "static/media/rest.svg": "/portfolio/static/media/rest.b6ebe9498ac6e29cf8cb23db0795b560.svg",
+    "static/media/lol.png": "/portfolio/static/media/lol.47a894c505c538c845f6.png",
     "index.html": "/portfolio/index.html",
-    "main.e604c7c5.css.map": "/portfolio/static/css/main.e604c7c5.css.map",
-    "main.a39c62af.js.map": "/portfolio/static/js/main.a39c62af.js.map",
+    "main.436b1911.css.map": "/portfolio/static/css/main.436b1911.css.map",
+    "main.df9539d3.js.map": "/portfolio/static/js/main.df9539d3.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e604c7c5.css",
-    "static/js/main.a39c62af.js"
+    "static/css/main.436b1911.css",
+    "static/js/main.df9539d3.js"
   ]
 }
