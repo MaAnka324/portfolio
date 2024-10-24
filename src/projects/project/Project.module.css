@@ -2,7 +2,7 @@
     width: 350px;
     min-height: 650px;
 
-    margin-bottom: 40px;
+    margin: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

@@ -4,6 +4,7 @@ import styleContainer from "../common/styles/Container.module.css";
 import Project from "./project/Project";
 import socialNetwork from "../../src/projects/project/img/social_network.png";
 import new_job from "../../src/projects/project/img/new.png";
+import lol from "../../src/projects/project/img/lol.png";
 
 
 
@@ -14,7 +15,7 @@ const Projects = () => {
                 <h1 className={style.title}>PROJECTS</h1>
                 <div className={style.projects}>
                     <Project
-                        project={'TodoList'}
+                        project={'Task Manager'}
                         text={'Stack: TypeScript, React, Redux-thunk,\n' +
                             'Router-dom, Axios, Mui, Formik, Storybook\n'}
                         href={'https://maanka324.github.io/TODO_LIST/'}
@@ -34,6 +35,13 @@ const Projects = () => {
                         href={'https://github.com/MaAnka324/abz'}
                         hrefName={'go to view'}
                         img={new_job}
+                    />
+                    <Project
+                        project={'Joke app'}
+                        text={'Stack: React Native, TypeScript, Redux-toolkit, Redux-Thunk, Async Storage, Axios'}
+                        href={'https://github.com/MaAnka324/JOKE'}
+                        hrefName={'go to view'}
+                        img={lol}
                     />
                 </div>
             </div>
